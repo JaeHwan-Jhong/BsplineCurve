@@ -1,0 +1,24 @@
+Package: BsplineCurve
+Type: Package
+Title: B-Spline curve fitting using ADMM
+Version: 0.1.0
+Authors@R: c(person(given = "Dong-Young",
+           family = "Lee",
+           role = c("aut"),
+           email = "jjh25@cbnu.ac.kr",
+           comment = "ChungBuk National University"),
+    person(given = "Ju-Sung",
+           family = "Lee",
+           role = c("aut"),
+           email = "jjh25@cbnu.ac.kr",
+           comment = "ChungBuk National University"),
+    person(given = "Jae-Hwan",
+           family = "Jhong",
+           role = c("aut", "cre"),
+           email = "jjh25@cbnu.ac.kr",
+           comment = "ChungBuk National University"))
+Maintainer: Jae-Hwan Jhong <0925jjh@naver.com>
+Description: This package provides functions for B-spline curve fitting using the Alternating Direction Method of Multipliers (ADMM). It supports automatic selection of regularization parameters and model selection using AIC and BIC criteria.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.3.2
